@@ -1,3 +1,5 @@
+/*menu para calcular o salario de 20 trabalhadores em suas respectivas profissoes 
+*/
 #include <iostream>
 
 

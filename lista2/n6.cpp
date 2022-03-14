@@ -1,4 +1,5 @@
-//calcular a quantidade de downloads. do valor de tantos downloads por tal preço
+/*calcular a quantidade de downloads. do valor de tantos downloads por tal preço
+*/
 #include <iostream>
 
 using namespace std;

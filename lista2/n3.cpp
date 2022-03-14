@@ -1,4 +1,5 @@
-// a soma TOTAL de todos os salarios de uma empresa
+/*a soma TOTAL de todos os salarios de uma empresa
+*/
 #include <iostream>
 
 using namespace std;

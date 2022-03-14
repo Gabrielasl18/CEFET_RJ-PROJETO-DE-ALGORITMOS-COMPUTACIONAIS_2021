@@ -1,4 +1,4 @@
-//tabuada de 1 a 10
+/*tabuada de 1 a 10*/
 #include <iostream>
 
 using namespace std;

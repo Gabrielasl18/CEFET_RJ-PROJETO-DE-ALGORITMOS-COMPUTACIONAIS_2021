@@ -1,4 +1,5 @@
-//o maior salario de uma empresa;
+/*o maior salario de uma empresa.
+*/
 #include <iostream>
 
 using namespace std;

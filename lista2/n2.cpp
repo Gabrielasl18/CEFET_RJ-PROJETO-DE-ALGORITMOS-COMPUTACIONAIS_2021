@@ -1,4 +1,5 @@
-// ler a quantidade de funcionarios de uma empresa, ler os dados, exibir a quantidade de funcionariAs.
+/*ler a quantidade de funcionarios de uma empresa, ler os dados, exibir a quantidade de funcionariAs.
+*/
 #include<iostream>
 
 using namespace std;

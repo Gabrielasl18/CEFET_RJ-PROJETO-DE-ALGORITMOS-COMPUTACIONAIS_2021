@@ -1,4 +1,5 @@
-//o maior salario de cada departamento, a soma dos salarios de cada departamento e a soma de todos os salarios da empresa
+/*o maior salario de cada departamento, a soma dos salarios de cada departamento e a soma de todos os salarios da empresa
+*/
 #include <iostream>
 
 using namespace std;
