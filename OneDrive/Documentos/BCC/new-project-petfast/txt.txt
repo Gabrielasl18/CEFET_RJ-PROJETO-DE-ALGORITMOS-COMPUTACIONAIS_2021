@@ -1,0 +1,23 @@
+   const [itensFiltrados, setItensFiltrados] = useState([]);
+,
+    useEffect(() => {
+        const filtrarItens = () => {
+            const itensFiltrados = t.flatMap(carrinho => {
+                if (carrinho.items) {
+                    return carrinho.items.filter(item => item.lojaId === lojaId);
+                }
+                return [];
+            });
+            setItensFiltrados(itensFiltrados);
+        };
+        filtrarItens();
+    }, [t, lojaId]);
+
+    const handleDeleteItem = (itemId) => {
+        deleteItemCarrinho(itemId);
+        // Atualizar os itens filtrados removendo o item deletado
+        const updatedItensFiltrados = itensFiltrados.filter(item => item.id !== itemId);
+        setItensFiltrados(updatedItensFiltrados);
+    };
+
+    <button onClick={() => handleDeleteItem(item.id)}>Deletar</button>
